@@ -1,0 +1,43 @@
+{
+    "mqtt": {
+        "broker": "tunnel.datamann.in",
+        "port": 8883,
+        "user": "dipak",
+        "password": "Dipak@123"
+       
+    },
+    "wifi": {
+        "ssid": "DataMann",
+        "password": "Datamann@2022"
+    },
+    "device_info":{
+        "device_id":"ES4003",
+        "c_code":"C-05",
+        "a_code":"A-01",
+        "s_code":"S-01",
+        "s_topic":"STJ",
+        "device_group":"G-01",
+        "sensor_delay":2
+    },
+    "camera_info":{
+        "C001":{ "ID":"123123213",
+                  "d_a":["HD","HR","AU","UU","MD","OD","PD"],
+                  "ip":"172.16.1.30",
+                  "port":80,
+                  "uname":"admin",
+                  "pwd":"pvipl@1857"
+               },
+         "C002":{ "ID":"123123213",
+                  "d_a":["HD","HR","AU","UU","MD","OD","PD"],
+                  "ip":"172.16.1.30",
+                  "port":80,
+                  "uname":"admin",
+                  "pwd":"pvipl@1857"
+               }
+    },
+    "BLE_Beacon":
+    {
+     "MFD_ID":"76"
+    }
+}    
+
